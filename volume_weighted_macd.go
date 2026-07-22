@@ -1,7 +1,7 @@
 package indicators
 
 import (
-	cgotalib "github.com/blazer-org/cgo-talib"
+	cgotalib "github.com/quiet-peak/cgo-talib"
 )
 
 // VolumeWeightedMACD calculates the Volume Weighted MACD for a given time series.

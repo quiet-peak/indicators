@@ -1,6 +1,6 @@
 package indicators
 
-import cgotalib "github.com/blazer-org/cgo-talib"
+import cgotalib "github.com/quiet-peak/cgo-talib"
 
 func Disp14(close []float64) []float64 {
 	disp14 := make([]float64, len(close))

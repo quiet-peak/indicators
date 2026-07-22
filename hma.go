@@ -3,7 +3,7 @@ package indicators
 import (
 	"math"
 
-	cgotalib "github.com/blazer-org/cgo-talib"
+	cgotalib "github.com/quiet-peak/cgo-talib"
 )
 
 // HMA calculates the Hull Moving Average for the given data and period.

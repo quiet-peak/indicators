@@ -1,6 +1,6 @@
 package indicators
 
-import cgotalib "github.com/blazer-org/cgo-talib"
+import cgotalib "github.com/quiet-peak/cgo-talib"
 
 func BbandsPercent(close []float64) []float64 {
 	bbUpper, _, bbLower := cgotalib.BBands(close, int32(20), 2.0, 2.0, 0)

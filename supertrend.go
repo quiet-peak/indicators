@@ -3,7 +3,7 @@ package indicators
 import (
 	"math"
 
-	cgotalib "github.com/blazer-org/cgo-talib"
+	cgotalib "github.com/quiet-peak/cgo-talib"
 )
 
 type SupertrendResult struct {

@@ -1,7 +1,7 @@
 package indicators
 
 import (
-	cgotalib "github.com/blazer-org/cgo-talib"
+	cgotalib "github.com/quiet-peak/cgo-talib"
 )
 
 // ElderBull calculates the Elder Bull indicator.
